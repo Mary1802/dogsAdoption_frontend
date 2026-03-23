@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="images/orange-paws.png" alt="paw picture">
+            <h2>Adopt Me</h2>
+        </div>
+        <input type="checkbox" id="nav-toggle" hidden>
+        <label for="nav-toggle" class="menu-toggle">
+            <span></span><span></span><span></span>
+        </label>
+        <nav class="link">
+            <a href="#home">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#dogs">Nos chiens</a>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#pricing">Tarifs</a>
+            <a href="#testimonials">Témoignages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--SECTION ACCUEIL-->
+    <section id="home">
+        <div class="home-picture">
+            <img src="images/dogsGroups.png" alt="dogs picture">
+        </div>
+        <div class="home-txt">
+            <h1>Ils n'attendent pas un miracle… juste toi.<br>
+                Adopte, aime, change une vie : trouve un ami fidèle pour la vie.
+            </h1>
+            <p>Chaque chien mérite une famille.<br>
+                Adopter un chien, c’est lui offrir une victoire et c'est gagner un ami fidèle.
+                <br> Alors donne-lui une nouvelle vie pleine d'amour!
+            </p>
+            <button type="button" class="adopt-btn">Adoptez maintenant <img src="images/right-arrow.png" alt="fleche" class="arrow-btn"></button>
+        </div>
+    </section>
+    <!--SECTION 2: A PROPOS-->
+    <section id="about">
+        <h1>À propos</h1>
+        <div class="about-content">
+            <div class="about-txt">
+                <h2>Qui sommes-nous ?</h2>
+                <p>Adopt Me est une association dédiée au bien-être des chiens abandonnés.
+                    Nous leur offrons soins, attention et amour, en attendant qu'ils trouvent leur famille idéale.
+                </p>
+                <h2>Notre mission</h2>
+                <p>Nous avons pour mission de donner une seconde chance à chaque chien.
+                    Adopter un chien, c'est lui offrir une victoire et c'est gagner un ami fidèle pour la vie.
+                </p>
+                <h2>Pourquoi adopter ?</h2>
+                <ul>
+                    <li><i class="fa-solid fa-paw"></i> Sauver une vie</li>
+                    <li><i class="fa-solid fa-paw"></i> Accueillir un compagnon fidèle</li>
+                    <li><i class="fa-solid fa-paw"></i> Faire un acte responsable et généreux</li>
+                </ul>
+            </div>
+            <div class="about-picture">
+                <img src="images/running dogs.png" alt="chiens qui courent">
+            </div>
+        </div>
+    </section>
+    <!--SECTION 3: NOS CHIENS-->
+    <section id="dogs">
+        <h1>Nos chiens</h1>
+        <p class="section-subtitle">Chacun d'eux attend sa famille. Et si c'était toi ?</p>
+        <div class="dogs-grid">
+            <div class="dog-card">
+                <img src="images/Cute Golden Retriever Puppy.png" alt="Golden Retriever Puppy">
+                <div class="dog-info">
+                    <h3>Sunny</h3>
+                    <p>Golden Retriever · 6 mois</p>
+                    <button class="adopt-btn small">Adopter</button>
+                </div>
+            </div>
+            <div class="dog-card">
+                <img src="images/golden dog.png" alt="Golden Dog">
+                <div class="dog-info">
+                    <h3>Caramel</h3>
+                    <p>Golden Retriever · 2 ans</p>
+                    <button class="adopt-btn small">Adopter</button>
+                </div>
+            </div>
+            <div class="dog-card">
+                <img src="images/white dog.png" alt="White Dog">
+                <div class="dog-info">
+                    <h3>Neige</h3>
+                    <p>Berger Blanc · 3 ans</p>
+                    <button class="adopt-btn small">Adopter</button>
+                </div>
+            </div>
+            <div class="dog-card">
+                <img src="images/Dog-types.png" alt="Dog types">
+                <div class="dog-info">
+                    <h3>Et bien d'autres…</h3>
+                    <p>Toutes races · Tous âges</p>
+                    <button class="adopt-btn small">Voir tous</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: FONCTIONNALITÉS -->
+    <section id="features">
+        <h1>Fonctionnalités</h1>
+        <p class="section-subtitle">Tout ce dont vous avez besoin pour adopter en toute sérénité.</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <h3>Recherche avancée</h3>
+                <p>Filtrez par race, âge, taille ou tempérament pour trouver le chien qui correspond parfaitement à votre mode de vie.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                <h3>Dossier d'adoption simplifié</h3>
+                <p>Remplissez votre dossier en ligne en quelques minutes. Notre équipe vous accompagne à chaque étape du processus.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                <h3>Suivi vétérinaire inclus</h3>
+                <p>Chaque chien est vacciné, stérilisé et suivi médicalement avant l'adoption. Vous adoptez un animal en pleine santé.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-handshake"></i></div>
+                <h3>Accompagnement post-adoption</h3>
+                <p>Notre équipe reste disponible après l'adoption pour répondre à vos questions et vous aider dans l'intégration de votre nouveau compagnon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: TARIFS -->
+    <section id="pricing">
+        <h1>Nos offres</h1>
+        <p class="section-subtitle">Des offres adaptées à chaque famille, pour adopter dans les meilleures conditions.</p>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-badge">Gratuit</div>
+                <h3>Starter</h3>
+                <div class="pricing-price">0 €</div>
+                <p class="pricing-desc">Pour votre première adoption</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 1 adoption offerte</li>
+                    <li><i class="fa-solid fa-check"></i> Gamelle offerte à l'adoption</li>
+                    <li><i class="fa-solid fa-check"></i> Carnet de santé inclus</li>
+                    <li><i class="fa-solid fa-check"></i> Accès à notre guide du nouvel adoptant</li>
+                    <li><i class="fa-solid fa-xmark"></i> Suivi post-adoption</li>
+                    <li><i class="fa-solid fa-xmark"></i> Accès prioritaire aux nouveaux chiens</li>
+                </ul>
+                <button class="adopt-btn">Commencer</button>
+            </div>
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Pro</div>
+                <h3>Famille</h3>
+                <div class="pricing-price">9,99 € <span>/mois</span></div>
+                <p class="pricing-desc">Pour les familles passionnées</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Adoptions illimitées</li>
+                    <li><i class="fa-solid fa-check"></i> Kit de bienvenue complet (gamelle, laisse, jouets)</li>
+                    <li><i class="fa-solid fa-check"></i> Suivi vétérinaire 6 mois offert</li>
+                    <li><i class="fa-solid fa-check"></i> Accès prioritaire aux nouveaux chiens</li>
+                    <li><i class="fa-solid fa-check"></i> Support dédié 7j/7</li>
+                    <li><i class="fa-solid fa-check"></i> Réductions chez nos partenaires animaliers</li>
+                </ul>
+                <button class="adopt-btn">Choisir cette offre</button>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-badge">Entreprise</div>
+                <h3>Partenaire</h3>
+                <div class="pricing-price">Sur devis</div>
+                <p class="pricing-desc">Pour les entreprises & associations</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Programme de parrainage d'entreprise</li>
+                    <li><i class="fa-solid fa-check"></i> Visibilité sur notre site et réseaux</li>
+                    <li><i class="fa-solid fa-check"></i> Événements d'adoption organisés</li>
+                    <li><i class="fa-solid fa-check"></i> Rapport d'impact annuel</li>
+                    <li><i class="fa-solid fa-check"></i> Accès API pour intégration</li>
+                    <li><i class="fa-solid fa-check"></i> Account manager dédié</li>
+                </ul>
+                <button class="adopt-btn">Nous contacter</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: TÉMOIGNAGES -->
+    <section id="testimonials">
+        <h1>Témoignages</h1>
+        <p class="section-subtitle">Ils ont adopté, ils témoignent</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Adopter Caramel a changé notre vie. En quelques clics, le dossier était prêt et notre golden retriever était à la maison. L'équipe d'Adopt Me nous a accompagnés avec beaucoup de bienveillance."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar"><img src="images/aron.jpeg" alt="Aron"></div>
+                    <div>
+                        <strong>Aron W.</strong>
+                        <span>Adoptant depuis 2023</span>
+                    </div>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Je cherchais un compagnon pour mes enfants. Grâce à la recherche avancée, j'ai trouvé Rex en moins de 10 minutes. Le suivi vétérinaire inclus m'a vraiment rassuré. Je recommande à 100% !"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar"><img src="images/chris.jpeg" alt="Chris"></div>
+                    <div>
+                        <strong>Christian M.</strong>
+                        <span>Père de famille, adopté en 2024</span>
+                    </div>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Notre association a rejoint le programme Entreprise. Nous organisons maintenant des journées d'adoption mensuelles. L'impact est incroyable : plus de 40 chiens placés en 6 mois !"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar"><img src="images/marie.jpeg" alt="Marie"></div>
+                    <div>
+                        <strong>Marie N.</strong>
+                        <span>Directrice, Association Pattes & Cœurs</span>
+                    </div>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION 7: CONTACT-->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p class="section-subtitle">Une question ? Envie d'adopter ? Écrivez-nous !</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" rows="5" required></textarea>
+            <button type="submit" class="adopt-btn">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="images/paws.png" alt="paw">
+                <span>Adopt Me</span>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-phone"></i> +243823620306</p>
+                <p><i class="fa-solid fa-envelope"></i> contact@adoptme.fr</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Accueil</a>
+                <a href="#about">À propos</a>
+                <a href="#dogs">Nos chiens</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <p class="footer-copy">© 2025 Adopt Me — Tous droits réservés</p>
+    </footer>
+</body>
+</html>
